@@ -10,7 +10,13 @@ import manejoarchivos.*;
  */
 public class PPal {
     public static void main (String[] args){
-        String nombreArchivo = "prueba.txt";
-        ManejoArchivos.crearArchivo(nombreArchivo);
+        String nombreArchivo = "prueba2.txt";
+        //String contenido = "hola mundo";
+        //ManejoArchivos.crearArchivo(nombreArchivo);
+        //ManejoArchivos.escribirArchivo(nombreArchivo,"hola mundo");
+        ManejoArchivos.agregarArchivo(nombreArchivo, " que tal ?");
+        ManejoArchivos.leerArchivo(nombreArchivo);
+        ManejoArchivos.leerArchivoPorPalabra(nombreArchivo);
     }
+   
 }
